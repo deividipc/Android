@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deividi.projeto_final.MainActivity"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sistema Cadastral de Pessoa Física"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/abc_alert_dialog_button_bar_height"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/abc_background_cache_hint_selector_material_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Desenvolvido por Deividi Pinheiro Cavalheiro           Ver. 1.0"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Cadastro"
+        android:id="@+id/bttrocatela"
+        android:layout_marginTop="71dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_blue_dark" />
+
+</RelativeLayout>
